@@ -1,70 +1,56 @@
-# Google Maps Business Extractor
+# 🚀 Google Maps & Email Extractor
 
-## Overview
-Google Maps Business Extractor is a Python-based GUI application that automates the extraction of business information from Google Maps using Playwright. It retrieves details such as business names, ratings, reviews, location, contact information, and services offered.
+## 🔍 What is this?
+This project helps you extract information from:
+1. **Google Maps Business Extractor** 🗺️ - Finds business details (name, rating, phone, etc.) from Google Maps.
+2. **Email Extractor** 📧 - Extracts email addresses from websites.
 
-## Features
-- Search for businesses based on type and location
-- Extract business details including:
-  - Name
-  - Rating
-  - Number of reviews
-  - Business type
-  - Location
-  - Contact details (phone, hours, etc.)
-  - Services offered
-- Scroll and auto-scroll functionality for loading more results
-- Save extracted data in JSON format
-- User-friendly GUI built with Tkinter
+## 🎯 Features
+### 🏢 Google Maps Business Extractor
+✅ Search for businesses by type & location
+✅ Get details like name, rating, reviews, contact info
+✅ Scroll & auto-scroll to find more businesses
+✅ Save data in JSON format
+✅ Easy-to-use graphical interface
 
-## Requirements
-### Dependencies
-Ensure you have the following installed:
+### 📩 Email Extractor
+✅ Find emails from websites automatically
+✅ Prioritizes contact & about pages
+✅ Filters out spam & incorrect emails
+✅ Saves emails in a text file
+✅ User-friendly GUI
 
-- Python 3.7+
-- Playwright
-- Tkinter (pre-installed with Python on Windows)
-- asyncio
-- json
-- datetime
-- re
-- logging
-- urllib.parse
-- threading
+## 🔧 Requirements
+🔹 **Python 3.7+** 🐍  
+🔹 **Playwright** 🎭  
+🔹 **BeautifulSoup4** 🍜  
+🔹 **Tkinter (GUI)** 🖥️  
+🔹 **aiohttp, threading, queue** ⚡  
 
-### Install Playwright
+📌 Install dependencies:
 ```sh
-pip install playwright
+pip install playwright beautifulsoup4 aiohttp
 playwright install
 ```
 
-### Install Other Dependencies
-```sh
-pip install -r requirements.txt
-```
+## 🛠️ How to Use
+### 🌍 Google Maps Extractor
+1️⃣ Enter business type & location.
+2️⃣ Click **Start Extraction** ▶️
+3️⃣ Click **Stop** ⏹️ anytime.
+4️⃣ **Load More Results** 🔄 manually.
+5️⃣ Enable **Auto-scroll** 🔽 to fetch more results.
+6️⃣ Save results **as JSON** 💾
 
-## Installation
-Clone this repository:
-```sh
-git clone https://github.com/yourusername/gmaps-business-extractor.git
-cd gmaps-business-extractor
-```
+### 📧 Email Extractor
+1️⃣ Enter website URL 🌐
+2️⃣ Set **max pages** & **tasks** 🛠️
+3️⃣ Click **Start Extraction** ▶️
+4️⃣ Click **Stop** ⏹️ anytime.
+5️⃣ Save emails **as TXT file** 📂
 
-Run the application:
-```sh
-python main.py
-```
-
-## Usage
-1. Enter the business type (e.g., "restaurants", "plumbers") and location.
-2. Click "Start Extraction" to begin scraping business details.
-3. Click "Stop" to halt extraction at any time.
-4. Use "Load More Results" to manually scroll and fetch more businesses.
-5. Enable "Auto-scroll" to continuously fetch more businesses automatically.
-6. Click "Save Results" to export data to a JSON file.
-
-## Output Format
-The extracted data is saved in JSON format with the following structure:
+## 📜 Output Example
+### 🏢 Business Extractor (JSON)
 ```json
 {
   "extraction_date": "YYYY-MM-DD HH:MM:SS",
@@ -76,7 +62,6 @@ The extracted data is saved in JSON format with the following structure:
       "reviews": "120",
       "type": "Restaurant",
       "location": "New York, NY",
-      "hours": "Open until 10 PM",
       "phone": "123-456-7890",
       "services": ["Dine-in", "Takeout"]
     }
@@ -84,20 +69,37 @@ The extracted data is saved in JSON format with the following structure:
 }
 ```
 
-## Troubleshooting
-- Ensure Playwright is installed and updated (`playwright install`).
-- If Google Maps layout changes, the selectors may need updating.
-- For errors related to missing dependencies, reinstall them using:
-  ```sh
-  pip install -r requirements.txt
-  ```
-- If you encounter rate limits from Google, try reducing the request frequency.
+### 📩 Email Extractor (TXT)
+```
+Email Extraction Results
+Date: YYYY-MM-DD HH:MM:SS
+Total emails found: 15
+Pages crawled: 50
 
-## Contributing
-Feel free to contribute by submitting issues or pull requests. Please ensure your code follows PEP8 standards and includes comments where necessary.
+Emails:
+example@email.com
+contact@company.com
+...
+```
 
-## License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+## ❓ Troubleshooting
+🔹 **Playwright not working?** Try:
+```sh
+playwright install
+```
+🔹 **Google Maps changes?** Update selectors.
+🔹 **Errors?** Install missing dependencies:
+```sh
+pip install -r requirements.txt
+```
+🔹 **Rate limits?** Reduce search frequency.
 
-## Author
-Developed by [Your Name](https://github.com/yourusername)
+## ❤️ Contribute
+Want to help? Feel free to submit issues or pull requests! 🤝
+
+## 📜 License
+Licensed under **MIT License** 📝
+
+## 👨‍💻 Author
+Developed by **[Your Name](https://github.com/yourusername)** 👨‍💻
+
