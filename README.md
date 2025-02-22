@@ -101,5 +101,5 @@ Want to help? Feel free to submit issues or pull requests! 🤝
 Licensed under **MIT License** 📝
 
 ## 👨‍💻 Author
-Developed by **[Your Name](https://github.com/yourusername)** 👨‍💻
+Developed by **[Your Name](https://github.com/lohitsdev)** 👨‍💻
 
