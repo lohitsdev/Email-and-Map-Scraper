@@ -8,24 +8,24 @@ This project helps you extract information from:
 ## 🎯 Features
 ### 🏢 Google Maps Business Extractor
 ✅ Search for businesses by type & location <br>
-✅ Get details like name, rating, reviews, contact info
-✅ Scroll & auto-scroll to find more businesses
-✅ Save data in JSON format
-✅ Easy-to-use graphical interface
+✅ Get details like name, rating, reviews, contact info <br>
+✅ Scroll & auto-scroll to find more businesses <br>
+✅ Save data in JSON format <br>
+✅ Easy-to-use graphical interface <br>
 
 ### 📩 Email Extractor
-✅ Find emails from websites automatically
-✅ Prioritizes contact & about pages
-✅ Filters out spam & incorrect emails
-✅ Saves emails in a text file
-✅ User-friendly GUI
+✅ Find emails from websites automatically <br>
+✅ Prioritizes contact & about pages <br>
+✅ Filters out spam & incorrect emails <br>
+✅ Saves emails in a text file <br>
+✅ User-friendly GUI <br>
 
 ## 🔧 Requirements
-🔹 **Python 3.7+** 🐍  
-🔹 **Playwright** 🎭  
-🔹 **BeautifulSoup4** 🍜  
-🔹 **Tkinter (GUI)** 🖥️  
-🔹 **aiohttp, threading, queue** ⚡  
+🔹 **Python 3.7+** 🐍  <br>
+🔹 **Playwright** 🎭  <br>
+🔹 **BeautifulSoup4** 🍜  <br>
+🔹 **Tkinter (GUI)** 🖥️  <br>
+🔹 **aiohttp, threading, queue** ⚡  <br>
 
 📌 Install dependencies:
 ```sh
@@ -35,19 +35,19 @@ playwright install
 
 ## 🛠️ How to Use
 ### 🌍 Google Maps Extractor
-1️⃣ Enter business type & location.
-2️⃣ Click **Start Extraction** ▶️
-3️⃣ Click **Stop** ⏹️ anytime.
-4️⃣ **Load More Results** 🔄 manually.
-5️⃣ Enable **Auto-scroll** 🔽 to fetch more results.
-6️⃣ Save results **as JSON** 💾
+1️⃣ Enter business type & location. <br>
+2️⃣ Click **Start Extraction** ▶️ <br>
+3️⃣ Click **Stop** ⏹️ anytime. <br>
+4️⃣ **Load More Results** 🔄 manually. <br>
+5️⃣ Enable **Auto-scroll** 🔽 to fetch more results. <br>
+6️⃣ Save results **as JSON** 💾 <br>
 
 ### 📧 Email Extractor
-1️⃣ Enter website URL 🌐
-2️⃣ Set **max pages** & **tasks** 🛠️
-3️⃣ Click **Start Extraction** ▶️
-4️⃣ Click **Stop** ⏹️ anytime.
-5️⃣ Save emails **as TXT file** 📂
+1️⃣ Enter website URL 🌐 <br>
+2️⃣ Set **max pages** & **tasks** 🛠️ <br>
+3️⃣ Click **Start Extraction** ▶️ <br>
+4️⃣ Click **Stop** ⏹️ anytime. <br>
+5️⃣ Save emails **as TXT file** 📂 <br>
 
 ## 📜 Output Example
 ### 🏢 Business Extractor (JSON)
