@@ -7,7 +7,7 @@ This project helps you extract information from:
 
 ## 🎯 Features
 ### 🏢 Google Maps Business Extractor
-✅ Search for businesses by type & location
+✅ Search for businesses by type & location <br>
 ✅ Get details like name, rating, reviews, contact info
 ✅ Scroll & auto-scroll to find more businesses
 ✅ Save data in JSON format
